@@ -1,0 +1,59 @@
+name: Haha
+schemes:
+  Done:
+    build:
+      targets:
+       App_iOS: build
+options:
+  usesTabs: false
+  indentWidth: 2
+  tabWidth: 2
+  bundleIdPrefix: com.test.muiz
+  deploymentTarget:
+    iOS: 10.0
+  carthageBuildPath: ../SCIOS/Carthage/Build
+targets:
+  App:
+    type: application
+    platform:
+      - iOS
+    settings:
+      INFOPLIST_FILE: Info.plist
+      TARGETED_DEVICE_FAMILY: 1
+      DEVELOPMENT_TEAM: SDSLU2QT5X
+    sources:
+      - Sources
+    dependencies:
+      # - carthage: Alamofire
+      # - carthage: Attributed
+      # - carthage: CHIPageControl
+      # - carthage: DifferenceKit
+      # - carthage: Differentiator
+      # - carthage: DropDown
+      # - carthage: IQKeyboardManager
+      # - carthage: IQKeyboardManagerSwift
+      # - carthage: ImageSlideshow
+      # - carthage: Instabug
+      - carthage: JGProgressHUD
+      # - carthage: KeychainAccess
+      # - carthage: Kingfisher
+      # - carthage: Macaw
+      # - carthage: Nantes
+      # - carthage: PKHUD
+      - carthage: PinLayout
+      # - carthage: Reachability
+      # - carthage: Result
+      # - carthage: Rswift
+      # - carthage: RxBlocking
+      # - carthage: RxCocoa
+      # - carthage: RxDataSources
+      # - carthage: RxRelay
+      # - carthage: RxSwift
+      # - carthage: RxTest
+      # - carthage: SWXMLHash
+      # - carthage: SkeletonView
+      # - carthage: SwiftyImage
+      # - carthage: TinyConstraints
+      # - carthage: ViewDSL
+      # - carthage: XLPagerTabStrip
+
